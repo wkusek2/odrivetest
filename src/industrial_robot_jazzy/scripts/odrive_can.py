@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 import can
@@ -26,6 +25,10 @@ class ODriveCANNode(Node):
         self.create_subscription(Float32,
                                  'odrive/vel_limit',
                                  self.vel_limit_callback,
+                                 10)
+        self.create_subscription(Float32,
+                                 'odrive/current_limit',
+                                 self.current_limit_callback,
                                  10)
 
     def send_commands(self):
@@ -83,6 +86,19 @@ class ODriveCANNode(Node):
             self.get_logger().info(f'Set velocity limit to {msg.data}')
         except can.CanError as exc:
             self.get_logger().error(f'Failed to set velocity limit: {exc}')
+
+    def current_limit_callback(self, msg: Float32):
+        """Set the ODrive current limit."""
+        current = int(msg.data * 1000)
+        data = current.to_bytes(4, 'little', signed=True) + (0).to_bytes(4, 'little', signed=True)
+        try:
+            frame = can.Message(arbitration_id=0x00C,
+                                data=data,
+                                is_extended_id=False)
+            self.bus.send(frame)
+            self.get_logger().info(f'Set current limit to {msg.data}')
+        except can.CanError as exc:
+            self.get_logger().error(f'Failed to set current limit: {exc}')
 
 
 def main():

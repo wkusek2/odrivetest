@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 from interactive_markers.interactive_marker_server import InteractiveMarkerServer
@@ -16,6 +15,7 @@ class ODriveRvizInterface(Node):
         self.menu_handler = MenuHandler()
         self.calib_pub = self.create_publisher(Bool, 'odrive/calibrate_offset', 10)
         self.vel_pub = self.create_publisher(Float32, 'odrive/vel_limit', 10)
+        self.curr_pub = self.create_publisher(Float32, 'odrive/current_limit', 10)
 
         self._init_menu()
         self._create_marker()
@@ -27,6 +27,10 @@ class ODriveRvizInterface(Node):
         for value in [5.0, 10.0]:
             self.menu_handler.insert(f'{value} rad/s', parent=vel_menu,
                                      callback=self._make_vel_cb(value))
+        curr_menu = self.menu_handler.insert('Current Limit')
+        for amps in [10.0, 20.0]:
+            self.menu_handler.insert(f'{amps} A', parent=curr_menu,
+                                     callback=self._make_curr_cb(amps))
 
     def _create_marker(self):
         int_marker = InteractiveMarker()
@@ -59,6 +63,12 @@ class ODriveRvizInterface(Node):
         def cb(feedback):
             self.get_logger().info(f'Setting velocity limit to {value}')
             self.vel_pub.publish(Float32(data=value))
+        return cb
+
+    def _make_curr_cb(self, value):
+        def cb(feedback):
+            self.get_logger().info(f'Setting current limit to {value}')
+            self.curr_pub.publish(Float32(data=value))
         return cb
 
 
