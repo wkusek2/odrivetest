@@ -9,9 +9,6 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(sensor_msgs REQUIRED)
-find_package(geometry_msgs REQUIRED)
-find_package(trajectory_msgs REQUIRED)
 
 # Create executable
 add_executable(robot_controller 
@@ -19,12 +16,9 @@ add_executable(robot_controller
 )
 
 # Specify dependencies
-ament_target_dependencies(robot_controller 
-  rclcpp 
-  std_msgs 
-  sensor_msgs 
-  geometry_msgs
-  trajectory_msgs
+ament_target_dependencies(robot_controller
+  rclcpp
+  std_msgs
 )
 
 # Install executable
