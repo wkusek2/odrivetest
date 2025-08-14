@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 from interactive_markers.interactive_marker_server import InteractiveMarkerServer
