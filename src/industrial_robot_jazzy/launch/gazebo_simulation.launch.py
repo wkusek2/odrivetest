@@ -14,7 +14,6 @@ def generate_launch_description():
     pkg_share = FindPackageShare("industrial_robot_jazzy").find("industrial_robot_jazzy")
 
     # Paths
-    urdf_file = os.path.join(pkg_share, "urdf", "robot.urdf.xacro")
     controllers_file = os.path.join(pkg_share, "config", "controllers.yaml")
 
     # Generate robot description from xacro
@@ -33,12 +32,20 @@ def generate_launch_description():
         output="screen",
     )
 
-    # Publish robot state
+    # Robot description publisher
     robot_state_publisher = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
         output="both",
         parameters=[robot_description],
+    )
+
+    # ros2_control controller manager
+    ros2_control_node = Node(
+        package="controller_manager",
+        executable="ros2_control_node",
+        parameters=[robot_description, controllers_file],
+        output="screen",
     )
 
     # Spawn robot into gz
@@ -81,6 +88,7 @@ def generate_launch_description():
     return LaunchDescription(
         [
             gazebo,
+            ros2_control_node,
             robot_state_publisher,
             spawn_entity,
             delay_joint_state_broadcaster,
