@@ -13,6 +13,8 @@ find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
+find_package(interactive_markers REQUIRED)
+find_package(visualization_msgs REQUIRED)
 
 # Create executable
 add_executable(robot_controller 
@@ -37,6 +39,9 @@ install(TARGETS robot_controller
 install(PROGRAMS scripts/odrive_can.py
   DESTINATION lib/${PROJECT_NAME}
 )
+install(PROGRAMS scripts/odrive_rviz_interface.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 # Install launch files and other resources
 install(DIRECTORY launch
@@ -53,7 +58,7 @@ install(DIRECTORY config
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  ament_lint_auto_find_test_dependencies()
+ament_lint_auto_find_test_dependencies()
 endif()
 
 ament_package()
