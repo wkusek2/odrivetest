@@ -14,21 +14,30 @@ find_package(geometry_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 
 # Create executable
-add_executable(robot_controller 
+add_executable(robot_controller
   src/robot_controller.cpp
 )
 
+add_executable(odrive_can_node
+  src/odrive_can_node.cpp
+)
+
 # Specify dependencies
-ament_target_dependencies(robot_controller 
-  rclcpp 
-  std_msgs 
-  sensor_msgs 
+ament_target_dependencies(robot_controller
+  rclcpp
+  std_msgs
+  sensor_msgs
   geometry_msgs
   trajectory_msgs
 )
 
+ament_target_dependencies(odrive_can_node
+  rclcpp
+  sensor_msgs
+)
+
 # Install executable
-install(TARGETS robot_controller
+install(TARGETS robot_controller odrive_can_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
