@@ -8,6 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
@@ -29,6 +30,11 @@ ament_target_dependencies(robot_controller
 
 # Install executable
 install(TARGETS robot_controller
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# Install Python nodes
+install(PROGRAMS scripts/odrive_can.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

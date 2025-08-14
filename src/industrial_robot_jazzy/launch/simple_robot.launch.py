@@ -32,4 +32,11 @@ def generate_launch_description():
         output="screen",
     )
 
-    return LaunchDescription([rsp, jsp, rviz])
+    odrive_can = Node(
+        package="industrial_robot_jazzy",
+        executable="odrive_can.py",
+        name="odrive_can",
+        output="screen",
+    )
+
+    return LaunchDescription([rsp, jsp, rviz, odrive_can])
