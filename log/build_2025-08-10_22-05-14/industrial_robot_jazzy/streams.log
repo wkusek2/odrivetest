@@ -1,0 +1,77 @@
+[0.013s] Invoking command in '/home/wiktor/robot_ws/build/industrial_robot_jazzy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wiktor/robot_ws/src/industrial_robot_jazzy -DCMAKE_INSTALL_PREFIX=/home/wiktor/robot_ws/install/industrial_robot_jazzy
+[0.080s] -- The C compiler identification is GNU 13.3.0
+[0.146s] -- The CXX compiler identification is GNU 13.3.0
+[0.170s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.301s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.303s] -- Detecting C compile features - done
+[0.318s] -- Detecting CXX compiler ABI info
+[0.448s] -- Detecting CXX compiler ABI info - done
+[0.457s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.458s] -- Detecting CXX compile features
+[0.458s] -- Detecting CXX compile features - done
+[0.463s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.635s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.770s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.827s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.846s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.895s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.985s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.991s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.122s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.154s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.183s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.263s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.278s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.318s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[1.340s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.478s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.480s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.480s] -- Configured cppcheck include dirs: 
+[1.480s] -- Configured cppcheck exclude dirs and/or files: 
+[1.483s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.484s] -- Configured cpplint exclude dirs and/or files: 
+[1.484s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.485s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.486s] -- Added test 'lint_cmake' to check CMake code style
+[1.486s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.487s] -- Added test 'uncrustify' to check C / C++ code style
+[1.488s] -- Configured uncrustify additional arguments: 
+[1.488s] -- Added test 'xmllint' to check XML markup files
+[1.490s] -- Configuring done (1.5s)
+[1.509s] -- Generating done (0.0s)
+[1.515s] -- Build files have been written to: /home/wiktor/robot_ws/build/industrial_robot_jazzy
+[1.529s] Invoked command in '/home/wiktor/robot_ws/build/industrial_robot_jazzy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wiktor/robot_ws/src/industrial_robot_jazzy -DCMAKE_INSTALL_PREFIX=/home/wiktor/robot_ws/install/industrial_robot_jazzy
+[1.530s] Invoking command in '/home/wiktor/robot_ws/build/industrial_robot_jazzy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wiktor/robot_ws/build/industrial_robot_jazzy -- -j4 -l4
+[1.603s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[10.774s] [100%] [32m[1mLinking CXX executable robot_controller[0m
+[11.122s] [100%] Built target robot_controller
+[11.140s] Invoked command in '/home/wiktor/robot_ws/build/industrial_robot_jazzy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wiktor/robot_ws/build/industrial_robot_jazzy -- -j4 -l4
+[11.154s] Invoking command in '/home/wiktor/robot_ws/build/industrial_robot_jazzy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wiktor/robot_ws/build/industrial_robot_jazzy
+[11.164s] -- Install configuration: ""
+[11.165s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/lib/industrial_robot_jazzy/robot_controller
+[11.171s] -- Set non-toolchain portion of runtime path of "/home/wiktor/robot_ws/install/industrial_robot_jazzy/lib/industrial_robot_jazzy/robot_controller" to ""
+[11.171s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//launch
+[11.172s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//launch/gazebo_simulation.launch.py
+[11.172s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//urdf
+[11.172s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//urdf/robot.urdf.xacro
+[11.172s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//config
+[11.172s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//config/controllers.yaml
+[11.173s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/ament_index/resource_index/package_run_dependencies/industrial_robot_jazzy
+[11.173s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/ament_index/resource_index/parent_prefix_path/industrial_robot_jazzy
+[11.173s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/ament_prefix_path.sh
+[11.173s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/ament_prefix_path.dsv
+[11.174s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/path.sh
+[11.174s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/path.dsv
+[11.174s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.bash
+[11.174s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.sh
+[11.174s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.zsh
+[11.174s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.dsv
+[11.175s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/package.dsv
+[11.175s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/ament_index/resource_index/packages/industrial_robot_jazzy
+[11.175s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/cmake/industrial_robot_jazzyConfig.cmake
+[11.175s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/cmake/industrial_robot_jazzyConfig-version.cmake
+[11.175s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/package.xml
+[11.178s] Invoked command in '/home/wiktor/robot_ws/build/industrial_robot_jazzy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wiktor/robot_ws/build/industrial_robot_jazzy

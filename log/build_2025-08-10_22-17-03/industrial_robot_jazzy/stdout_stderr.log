@@ -1,0 +1,25 @@
+[100%] Built target robot_controller
+-- Install configuration: ""
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/lib/industrial_robot_jazzy/robot_controller
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//launch
+-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//launch/sime_robot.launch.py
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//launch/gazebo_simulation.launch.py
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//urdf
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//urdf/robot.urdf.xacro
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//config
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//config/controllers.yaml
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/ament_index/resource_index/package_run_dependencies/industrial_robot_jazzy
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/ament_index/resource_index/parent_prefix_path/industrial_robot_jazzy
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/path.sh
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/path.dsv
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.bash
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.sh
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.zsh
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.dsv
+-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/package.dsv
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/ament_index/resource_index/packages/industrial_robot_jazzy
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/cmake/industrial_robot_jazzyConfig.cmake
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/cmake/industrial_robot_jazzyConfig-version.cmake
+-- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/package.xml

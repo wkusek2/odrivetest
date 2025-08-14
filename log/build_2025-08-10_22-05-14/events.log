@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000486] (industrial_robot_jazzy) JobQueued: {'identifier': 'industrial_robot_jazzy', 'dependencies': OrderedDict()}
+[0.000809] (industrial_robot_jazzy) JobStarted: {'identifier': 'industrial_robot_jazzy'}
+[0.011286] (industrial_robot_jazzy) JobProgress: {'identifier': 'industrial_robot_jazzy', 'progress': 'cmake'}
+[0.011915] (industrial_robot_jazzy) Command: {'cmd': ['/usr/bin/cmake', '/home/wiktor/robot_ws/src/industrial_robot_jazzy', '-DCMAKE_INSTALL_PREFIX=/home/wiktor/robot_ws/install/industrial_robot_jazzy'], 'cwd': '/home/wiktor/robot_ws/build/industrial_robot_jazzy', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wiktor', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wiktor', 'OLDPWD': '/home/wiktor', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2479', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/wiktor/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wiktor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wiktor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wiktor-VMware-Virtual-Platform:@/tmp/.ICE-unix/2443,unix/wiktor-VMware-Virtual-Platform:/tmp/.ICE-unix/2443', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ae54cdca_4d3d_4a5f_a429_e750dd481d3b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ENGBB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '11', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wiktor/robot_ws/build/industrial_robot_jazzy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.080797] (industrial_robot_jazzy) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.100868] (-) TimerEvent: {}
+[0.146619] (industrial_robot_jazzy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.170682] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.201260] (-) TimerEvent: {}
+[0.294898] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.301408] (-) TimerEvent: {}
+[0.302097] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.303099] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.303639] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.316279] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.402908] (-) TimerEvent: {}
+[0.448281] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.457841] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.458650] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.458837] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.463346] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.503288] (-) TimerEvent: {}
+[0.604800] (-) TimerEvent: {}
+[0.635086] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.705389] (-) TimerEvent: {}
+[0.770475] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.806045] (-) TimerEvent: {}
+[0.827030] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.846355] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.869921] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.895108] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.906299] (-) TimerEvent: {}
+[0.985507] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.990217] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.006710] (-) TimerEvent: {}
+[1.107771] (-) TimerEvent: {}
+[1.122467] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.154386] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.183158] (industrial_robot_jazzy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.208355] (-) TimerEvent: {}
+[1.263294] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.278471] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.308867] (-) TimerEvent: {}
+[1.318180] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)\n'}
+[1.341090] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.409375] (-) TimerEvent: {}
+[1.478710] (industrial_robot_jazzy) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.480753] (industrial_robot_jazzy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.480991] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.481061] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.483785] (industrial_robot_jazzy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.484201] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.484957] (industrial_robot_jazzy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.485233] (industrial_robot_jazzy) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.486805] (industrial_robot_jazzy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.487001] (industrial_robot_jazzy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.488175] (industrial_robot_jazzy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.488333] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.488854] (industrial_robot_jazzy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.490278] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[1.509625] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.510127] (-) TimerEvent: {}
+[1.515460] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Build files have been written to: /home/wiktor/robot_ws/build/industrial_robot_jazzy\n'}
+[1.528650] (industrial_robot_jazzy) CommandEnded: {'returncode': 0}
+[1.530169] (industrial_robot_jazzy) JobProgress: {'identifier': 'industrial_robot_jazzy', 'progress': 'build'}
+[1.530225] (industrial_robot_jazzy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wiktor/robot_ws/build/industrial_robot_jazzy', '--', '-j4', '-l4'], 'cwd': '/home/wiktor/robot_ws/build/industrial_robot_jazzy', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wiktor', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wiktor', 'OLDPWD': '/home/wiktor', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2479', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/wiktor/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wiktor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wiktor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wiktor-VMware-Virtual-Platform:@/tmp/.ICE-unix/2443,unix/wiktor-VMware-Virtual-Platform:/tmp/.ICE-unix/2443', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ae54cdca_4d3d_4a5f_a429_e750dd481d3b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ENGBB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '11', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wiktor/robot_ws/build/industrial_robot_jazzy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.603840] (industrial_robot_jazzy) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o\x1b[0m\n'}
+[1.610720] (-) TimerEvent: {}
+[1.711338] (-) TimerEvent: {}
+[1.812135] (-) TimerEvent: {}
+[1.912965] (-) TimerEvent: {}
+[2.014383] (-) TimerEvent: {}
+[2.115711] (-) TimerEvent: {}
+[2.216479] (-) TimerEvent: {}
+[2.317400] (-) TimerEvent: {}
+[2.417947] (-) TimerEvent: {}
+[2.518664] (-) TimerEvent: {}
+[2.619762] (-) TimerEvent: {}
+[2.720413] (-) TimerEvent: {}
+[2.821257] (-) TimerEvent: {}
+[2.922254] (-) TimerEvent: {}
+[3.023096] (-) TimerEvent: {}
+[3.123756] (-) TimerEvent: {}
+[3.224744] (-) TimerEvent: {}
+[3.325242] (-) TimerEvent: {}
+[3.427865] (-) TimerEvent: {}
+[3.529102] (-) TimerEvent: {}
+[3.629750] (-) TimerEvent: {}
+[3.730685] (-) TimerEvent: {}
+[3.831902] (-) TimerEvent: {}
+[3.932744] (-) TimerEvent: {}
+[4.033357] (-) TimerEvent: {}
+[4.134163] (-) TimerEvent: {}
+[4.234670] (-) TimerEvent: {}
+[4.335350] (-) TimerEvent: {}
+[4.436218] (-) TimerEvent: {}
+[4.536961] (-) TimerEvent: {}
+[4.637718] (-) TimerEvent: {}
+[4.738290] (-) TimerEvent: {}
+[4.839090] (-) TimerEvent: {}
+[4.940031] (-) TimerEvent: {}
+[5.041039] (-) TimerEvent: {}
+[5.141812] (-) TimerEvent: {}
+[5.243297] (-) TimerEvent: {}
+[5.344682] (-) TimerEvent: {}
+[5.447370] (-) TimerEvent: {}
+[5.548849] (-) TimerEvent: {}
+[5.652251] (-) TimerEvent: {}
+[5.754892] (-) TimerEvent: {}
+[5.857488] (-) TimerEvent: {}
+[5.960196] (-) TimerEvent: {}
+[6.062962] (-) TimerEvent: {}
+[6.165491] (-) TimerEvent: {}
+[6.268462] (-) TimerEvent: {}
+[6.370905] (-) TimerEvent: {}
+[6.473327] (-) TimerEvent: {}
+[6.576374] (-) TimerEvent: {}
+[6.677213] (-) TimerEvent: {}
+[6.780781] (-) TimerEvent: {}
+[6.884502] (-) TimerEvent: {}
+[6.986795] (-) TimerEvent: {}
+[7.087782] (-) TimerEvent: {}
+[7.190227] (-) TimerEvent: {}
+[7.292987] (-) TimerEvent: {}
+[7.395246] (-) TimerEvent: {}
+[7.497799] (-) TimerEvent: {}
+[7.600837] (-) TimerEvent: {}
+[7.703078] (-) TimerEvent: {}
+[7.804388] (-) TimerEvent: {}
+[7.904792] (-) TimerEvent: {}
+[8.008555] (-) TimerEvent: {}
+[8.111096] (-) TimerEvent: {}
+[8.213508] (-) TimerEvent: {}
+[8.314450] (-) TimerEvent: {}
+[8.417053] (-) TimerEvent: {}
+[8.519650] (-) TimerEvent: {}
+[8.622794] (-) TimerEvent: {}
+[8.726018] (-) TimerEvent: {}
+[8.828587] (-) TimerEvent: {}
+[8.931880] (-) TimerEvent: {}
+[9.034436] (-) TimerEvent: {}
+[9.135083] (-) TimerEvent: {}
+[9.237792] (-) TimerEvent: {}
+[9.342275] (-) TimerEvent: {}
+[9.444849] (-) TimerEvent: {}
+[9.548549] (-) TimerEvent: {}
+[9.649664] (-) TimerEvent: {}
+[9.752507] (-) TimerEvent: {}
+[9.854248] (-) TimerEvent: {}
+[9.956901] (-) TimerEvent: {}
+[10.059537] (-) TimerEvent: {}
+[10.161883] (-) TimerEvent: {}
+[10.264494] (-) TimerEvent: {}
+[10.365602] (-) TimerEvent: {}
+[10.466368] (-) TimerEvent: {}
+[10.567627] (-) TimerEvent: {}
+[10.668105] (-) TimerEvent: {}
+[10.768819] (-) TimerEvent: {}
+[10.774561] (industrial_robot_jazzy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_controller\x1b[0m\n'}
+[10.869416] (-) TimerEvent: {}
+[10.970069] (-) TimerEvent: {}
+[11.071020] (-) TimerEvent: {}
+[11.122333] (industrial_robot_jazzy) StdoutLine: {'line': b'[100%] Built target robot_controller\n'}
+[11.140412] (industrial_robot_jazzy) CommandEnded: {'returncode': 0}
+[11.141062] (industrial_robot_jazzy) JobProgress: {'identifier': 'industrial_robot_jazzy', 'progress': 'install'}
+[11.154461] (industrial_robot_jazzy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wiktor/robot_ws/build/industrial_robot_jazzy'], 'cwd': '/home/wiktor/robot_ws/build/industrial_robot_jazzy', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wiktor', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wiktor', 'OLDPWD': '/home/wiktor', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2479', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/wiktor/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wiktor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wiktor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wiktor-VMware-Virtual-Platform:@/tmp/.ICE-unix/2443,unix/wiktor-VMware-Virtual-Platform:/tmp/.ICE-unix/2443', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ae54cdca_4d3d_4a5f_a429_e750dd481d3b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ENGBB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '11', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wiktor/robot_ws/build/industrial_robot_jazzy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.165093] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.165454] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/lib/industrial_robot_jazzy/robot_controller\n'}
+[11.171356] (-) TimerEvent: {}
+[11.171854] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wiktor/robot_ws/install/industrial_robot_jazzy/lib/industrial_robot_jazzy/robot_controller" to ""\n'}
+[11.172116] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//launch\n'}
+[11.172277] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//launch/gazebo_simulation.launch.py\n'}
+[11.172478] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//urdf\n'}
+[11.172621] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//urdf/robot.urdf.xacro\n'}
+[11.172852] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//config\n'}
+[11.172985] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//config/controllers.yaml\n'}
+[11.173292] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/ament_index/resource_index/package_run_dependencies/industrial_robot_jazzy\n'}
+[11.173558] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/ament_index/resource_index/parent_prefix_path/industrial_robot_jazzy\n'}
+[11.173775] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/ament_prefix_path.sh\n'}
+[11.174035] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/ament_prefix_path.dsv\n'}
+[11.174159] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/path.sh\n'}
+[11.174393] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/path.dsv\n'}
+[11.174619] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.bash\n'}
+[11.174783] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.sh\n'}
+[11.174928] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.zsh\n'}
+[11.175072] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.dsv\n'}
+[11.175316] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/package.dsv\n'}
+[11.175548] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/ament_index/resource_index/packages/industrial_robot_jazzy\n'}
+[11.175826] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/cmake/industrial_robot_jazzyConfig.cmake\n'}
+[11.176026] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/cmake/industrial_robot_jazzyConfig-version.cmake\n'}
+[11.176255] (industrial_robot_jazzy) StdoutLine: {'line': b'-- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/package.xml\n'}
+[11.178716] (industrial_robot_jazzy) CommandEnded: {'returncode': 0}
+[11.195616] (industrial_robot_jazzy) JobEnded: {'identifier': 'industrial_robot_jazzy', 'rc': 0}
+[11.196680] (-) EventReactorShutdown: {}

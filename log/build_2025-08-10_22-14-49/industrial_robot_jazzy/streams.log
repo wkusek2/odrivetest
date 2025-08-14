@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/wiktor/robot_ws/build/industrial_robot_jazzy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wiktor/robot_ws/build/industrial_robot_jazzy -- -j4 -l4
+[0.101s] [100%] Built target robot_controller
+[0.121s] Invoked command in '/home/wiktor/robot_ws/build/industrial_robot_jazzy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wiktor/robot_ws/build/industrial_robot_jazzy -- -j4 -l4
+[0.134s] Invoking command in '/home/wiktor/robot_ws/build/industrial_robot_jazzy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wiktor/robot_ws/build/industrial_robot_jazzy
+[0.146s] -- Install configuration: ""
+[0.147s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/lib/industrial_robot_jazzy/robot_controller
+[0.147s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//launch
+[0.147s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//launch/gazebo_simulation.launch.py
+[0.147s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//urdf
+[0.147s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//urdf/robot.urdf.xacro
+[0.147s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//config
+[0.147s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy//config/controllers.yaml
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/ament_index/resource_index/package_run_dependencies/industrial_robot_jazzy
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/ament_index/resource_index/parent_prefix_path/industrial_robot_jazzy
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/ament_prefix_path.sh
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/ament_prefix_path.dsv
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/path.sh
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/environment/path.dsv
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.bash
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.sh
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.zsh
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/local_setup.dsv
+[0.148s] -- Installing: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/package.dsv
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/ament_index/resource_index/packages/industrial_robot_jazzy
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/cmake/industrial_robot_jazzyConfig.cmake
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/cmake/industrial_robot_jazzyConfig-version.cmake
+[0.148s] -- Up-to-date: /home/wiktor/robot_ws/install/industrial_robot_jazzy/share/industrial_robot_jazzy/package.xml
+[0.151s] Invoked command in '/home/wiktor/robot_ws/build/industrial_robot_jazzy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wiktor/robot_ws/build/industrial_robot_jazzy
